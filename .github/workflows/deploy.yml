@@ -22,7 +22,6 @@ jobs:
           key: ${{ secrets.PRIVATE_SSH_KEY }}
           port: 22
           script: |
-            cd next-ec2-test
             git pull
             npm install
             npm run build
