@@ -27,6 +27,13 @@ export default function Home() {
 
         <div className="flex gap-4 items-center flex-col sm:flex-row">
           <a
+            className="rounded-full border-2 border-pink-400 bg-gradient-to-r from-yellow-200 via-pink-200 to-orange-200 text-pink-700 hover:bg-pink-100 transition-colors flex items-center justify-center font-bold text-lg h-12 px-6 mb-4 shadow-lg animate-bounce"
+            href="/birthday"
+            style={{ textDecoration: 'none' }}
+          >
+            🎂 Wish Krishna Happy Birthday!
+          </a>
+          <a
             className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
             href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
             target="_blank"
